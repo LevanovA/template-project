@@ -1,6 +1,8 @@
 .button {
-    @include flex-block;
-    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
     height: 60px;
 
     font-size: 24px;
@@ -30,8 +32,4 @@
     &:focus {
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2)
     }
-}
-
-.button--modal-open {
-    margin-bottom: 30px;
 }

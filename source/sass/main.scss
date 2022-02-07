@@ -8,7 +8,9 @@
 }
 
 .icon-address {
-    @include flex-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     fill: pink;
 }
 
